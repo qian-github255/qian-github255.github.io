@@ -1,0 +1,214 @@
+.content{
+	position: absolute;
+	/* top: 0; */
+	left: 50%;
+	margin-left: -260px;
+	width: 520px;
+	height: 100%;
+	/* margin: 0 auto; */
+	/* position: relative; */
+	background-color: #fff;
+}
+.d0{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+	margin-top: 10px;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.jdxz{
+	display: flex;
+	/*float: left;*/
+	width: 256px;
+	/*background: lightcoral;*/
+}
+.jdxzz{
+	font-size: 24px;
+}
+.wjdxzz{
+	color: gold;
+	position: relative;
+	top: 12px;
+	font-size: 12px;
+	
+}
+.right{
+	float: right;
+	width: 120px;
+	/*background-color: lawngreen;*/
+	display: flex;
+	justify-content: space-between;
+}
+.fx{
+	width: 50px;
+	background: lightblue;
+	border-radius:40% ;
+}
+.cj{
+	width: 50px;
+	background: lightseagreen;
+	border-radius:40% ;
+}
+.fxz,.cjz{
+	color: white;
+	text-align:center;
+	font-size: 15px;
+	position: relative;
+	top: 5px;
+}
+
+.d1{
+	width: 512px;
+	height: 20px;
+	display: flex;
+    justify-content: center;
+    /*background: red;*/
+    margin-top: 5px;
+}
+.d2{
+	width: 512px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	/*background: red;*/
+}
+.jddr{
+	display: flex;
+	
+}
+.jddrz{
+	font-size: 24px;
+}
+.bxs{
+	color: lightgrey;
+	position: relative;
+	top: 12px;
+	font-size: 12px;
+}
+.anniu{
+	/*background-color: royalblue;*/
+	display: flex;
+    justify-content: space-around;
+    width: 125px;
+}
+.an_faxian,.an_fenxiang,.an_tx,.an_txl{
+	position: relative;
+	margin-top: 2.5px;
+	width: 25px;
+	height: 25px;
+	border-radius:50% ;
+}
+.d2 img{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	margin-top: 2.5px;
+	margin-left: 2.5px;
+}
+.an_faxian{
+	background: lightblue;
+}
+.an_fenxiang{
+	background: lightpink;
+}
+.an_tx{
+	background: lightsalmon;
+}
+.an_txl{
+	background: lightcoral;
+}
+.d3{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin: 0 auto;
+	/*background: red;*/
+	margin-top: 50px;
+}
+.d3 img{
+	width: 150px;
+	height: 150px;
+}
+.d4{
+	width: 512px;
+	text-align:center;
+}
+.bottom {
+    width: 518px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 70px;
+    background-color: #fff;
+    line-height: 70px;
+    position: fixed;
+    left: 50%;
+    margin-left: -260px;
+    bottom: 0px;
+}
+
+.bottom .button{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    /* background-color: rgb(200, 200, 200); */
+    line-height: 60px;
+    cursor: pointer;
+}
+.bottom .button .tu{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    font-size: 30px;
+    /* color: #08f; */
+    top: -10px;
+    color: rgb(200, 200, 200);
+    opacity : 0.8;
+}
+.bottom .button p{
+    position: absolute;
+    top: 20px;
+    left: 8px;
+}
+
+/* 定位 */
+.bottom .first{
+    margin-left: 64px;
+}
+.bottom .second{
+    margin-top: -60px;
+    margin-left: 178px;
+}
+.bottom .third{
+    margin-top: -60px;
+    margin-left: 292px;
+}
+.bottom .last{
+    margin-top: -60px;
+    margin-left: 406px;
+}
+/* 选中状态 */
+.bottom .button .icon-jianduchuanhuo{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

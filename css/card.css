@@ -1,0 +1,258 @@
+#card {
+    width: 520px;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+    position: relative;
+}
+
+#card .theme {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+
+#card .point {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(219, 218, 218);
+    line-height: 50px;
+}
+
+#card .point p {
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+#card .content {
+    background-color: rgb(250, 250, 250);
+    width: 518px;
+    height: 75px;
+    border: 1px solid rgb(219, 218, 218);
+}
+
+#card .content .logo {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    width: 65px;
+    height: 65px;
+    font-size: 45px;
+    border-radius: 50%;
+    top: 5px;
+    text-align: center;
+    line-height: 65px;
+}
+
+#card .content h3 {
+    position: relative;
+    top: -40px;
+    left: 90px;
+    opacity: 0.5;
+}
+
+#card .content .extend {
+    position: relative;
+    top: -65px;
+    right: 20px;
+    font-size: 25px;
+    opacity: 0.5;
+    /* display: none; */
+}
+
+#card .content .appear {
+    position: relative;
+    top: -65px;
+    right: 20px;
+    font-size: 25px;
+    opacity: 0.5;
+    /* display: none; */
+}
+
+#card .read,
+.language,
+.health,
+.life,
+.art,
+.skill,
+.other,
+.edu,
+.study {
+    background-color: rgb(219, 218, 218);
+}
+
+
+#card .read,
+.language,
+.health,
+.life,
+.art,
+.skill,
+.other,
+.edu,
+.study .extendContend {
+    width: 520px;
+    background-color: rgb(219, 218, 218);
+}
+
+
+
+/* logo 颜色设置 */
+#card .read .content .logo{
+    background-color: yellowgreen;
+}
+#card .edu .content .logo{
+    background-color: salmon;
+}
+#card .study .content .logo{
+    background-color: royalblue;
+}
+#card .language .content .logo {
+    background-color: tan;
+}
+#card .health .content .logo{
+    background-color: violet;
+}
+#card .life .content .logo{
+    background-color: teal;
+}
+#card .art .content .logo {
+    background-color: darkolivegreen;
+}
+#card .skill .content .logo {
+    background-color: grey;
+}
+#card .other .content .logo {
+    background-color: lime;
+}
+
+
+/* 扩展内容设置 */
+#card .read .extendContend .add span {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#card .edu .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#card .study .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#card .language .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#card .health .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#card .life .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#card .art .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#card .skill .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#card .other .extendContend .add span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 218, 218);
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.return{
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    /* background: grey; */
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+    line-height: 40px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.return a img{
+    width: 100%;
+    height: 100%;
+}

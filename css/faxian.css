@@ -1,0 +1,173 @@
+.content{
+	position: absolute; 
+	/* top: 0; 
+	left: 0; */
+	width: 520px;
+	height: 100%; 
+	/* margin: 0 auto; */
+	/* position: relative; */
+	left: 50%;
+	margin-left: -260px;
+	/* background-color: rgb(200, 200, 200); */
+	background-color: #fff;
+	
+}
+.d0{
+	/*background: red;*/
+	position: relative;
+	height: 20px;
+	width: 300px;
+	margin-top: 5px;
+	margin-left: 5px;
+	display: flex;
+}
+.d0 .search{
+	height: 20px;
+	width: 280px;
+	
+}
+.d0 img{
+	height: 20px;
+	width: 20px;
+	
+}
+
+.d1{
+	height: 100px;
+	width: 180px;
+	margin-top: 15px;
+	margin-left: 5px;
+	/*background: gold;*/
+	display: flex;
+	justify-content: space-between;
+	text-align:center;
+}
+.xinzeng{
+	height: 100px;
+	width: 80px;
+	/*background: red;*/
+}
+.canjia{
+	height: 80px;
+	width: 80px;
+	background: lightblue;
+	border-radius:10% ;
+	border: 2px;
+}
+.d1 img{
+	height: 75px;
+	width: 75px;
+}
+.d2{
+	height: 25px;
+	width: 516px;
+	margin-top: 15px;
+	border: 2px solid lightblue;
+	border-radius:10% ;
+	background-color: #fff;
+}
+
+.nav_list{
+	
+	margin-left: 1px;
+}
+.nav_list .nav_item{
+	display: inline-block;
+	/*转化成块元素*/
+	line-height:20px ;
+	
+}
+.nav_list .nav_item a:hover{
+	color: #ff6700;
+}
+.nav_list .nav_item a{
+	text-decoration: none;
+	color: #333333;
+	font-size: 20px;
+	padding: 8px 5px;
+}
+
+
+.d3{
+	height: 100px;
+	width: 516px;
+	margin-top: 15px;
+	border: 2px solid lightblue;
+	border-radius:10% ;
+	display: flex;
+	background-color: #fff;
+}
+.d3 img{
+	height: 70px;
+	width: 180px;
+	border: 10px;
+	margin-top: 5px;
+	border-radius:10% ;
+}
+
+
+.bottom {
+    width: 518px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 70px;
+    background-color: #fff;
+    line-height: 70px;
+    position: fixed;
+    left: 50%;
+    margin-left: -260px;
+    bottom: 0px;
+}
+
+.bottom .button{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    /* background-color: rgb(200, 200, 200); */
+    line-height: 60px;
+    cursor: pointer;
+}
+.bottom .button .tu{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    font-size: 30px;
+    /* color: #08f; */
+    top: -10px;
+    color: rgb(200, 200, 200);
+    opacity : 0.8;
+}
+.bottom .button p{
+    position: absolute;
+    top: 20px;
+    left: 8px;
+}
+
+/* 定位 */
+.bottom .first{
+    margin-left: 64px;
+}
+.bottom .second{
+    margin-top: -60px;
+    margin-left: 178px;
+}
+.bottom .third{
+    margin-top: -60px;
+    margin-left: 292px;
+}
+.bottom .last{
+    margin-top: -60px;
+    margin-left: 406px;
+}
+/* 选中状态 */
+.bottom .button .icon-faxian{
+    color: red;
+}
+
+
+
+
+
+
+

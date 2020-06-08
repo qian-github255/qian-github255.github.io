@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.layer{
+    width: 420px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:grey;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+    /* overflow: hidden; */
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color:#3c3c3c;
+}
+
+.display{
+    display: none;
+}
+

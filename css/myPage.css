@@ -1,0 +1,153 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#myPage{
+    width: 520px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(200, 200, 200); 
+    position: relative;
+}
+#myPage .head{
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    background-image: url(../img/bg1.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+#myPage .head .logoPlace{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -45px;
+    margin-top: -45px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#myPage .head .logoPlace img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+#myPage .head .loginPlace{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: 40px;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#myPage .bottomContent {
+    background-color: rgb(200, 200, 200);
+    height: 100%;
+}
+
+#myPage .bottomContent .content{
+    width: 518px;
+    height: 60px;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: #fff;
+    position: relative;
+    top: 50%; 
+    line-height: 60px;
+}
+#myPage .bottomContent .content span{
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+#myPage .bottomContent .content p{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: -67px;
+}
+#myPage .bottomContent .content h5{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    font-size: 20px;
+    margin-left: 480px;
+    margin-top: -25px;
+    /* opacity: 0.1; */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+
+#myPage .bottom {
+    width: 518px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 70px;
+    background-color: #fff;
+    line-height: 70px;
+    position: fixed;
+    left: 50%;
+    margin-left: -260px;
+    bottom: 0px;
+}
+
+#myPage .bottom .button{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    /* background-color: rgb(200, 200, 200); */
+    line-height: 60px;
+    cursor: pointer;
+}
+#myPage  .bottom .button .tu{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    font-size: 30px;
+    /* color: #08f; */
+    top: -10px;
+    color: rgb(200, 200, 200);
+    opacity : 0.8;
+}
+#myPage  .bottom .button p{
+    position: absolute;
+    top: 20px;
+    left: 8px;
+}
+
+/* 定位 */
+#myPage  .bottom .first{
+    margin-left: 64px;
+}
+#myPage .bottom .second{
+    margin-top: -60px;
+    margin-left: 178px;
+}
+#myPage .bottom .third{
+    margin-top: -60px;
+    margin-left: 292px;
+}
+#myPage .bottom .last{
+    margin-top: -60px;
+    margin-left: 406px;
+}
+/* 选中状态 */
+#myPage .bottom .button .active{
+    color: red;
+}

@@ -1,0 +1,104 @@
+#loginPage{
+    width: 520px;
+    margin: 0 auto;
+    height: 600px;
+    background-color: rgb(200, 200, 200); 
+    position: relative;
+}
+
+#loginPage .bg{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 100vh;
+}
+
+#loginPage .bg .logoPage {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -55px;
+    margin-top: -110px;
+    border-radius: 50%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+#loginPage .bg .logoPage img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+#loginPage .bg form {
+    width: 400px;
+    /* background: red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -200px;
+    text-align: center;
+}
+
+#loginPage .bg form input{
+    width: 220px;
+    height: 50px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    opacity: 0.7;
+}
+
+
+#loginPage .bg form .password{
+    margin-top: 15px;
+    /* background: linear-gradient(to right, rgb(248, 248, 78), rgb(79, 79, 243)); */
+}
+#loginPage .bg form .submit{
+    font-style: normal;
+    margin-top: 70px;
+    width: 180px; 
+    background-color: rgb(173, 176, 180);
+    
+    /* background:  linear-gradient(to right ,rgb(57, 57, 236), rgb(245, 53, 53)); */
+}
+
+#loginPage .bg .forget{
+    position: absolute;
+    width: 420px;
+    height: 30px;
+    line-height: 30px;
+    /* background-color:red ; */
+    top: 50%;
+    margin-top: 160px;
+    margin-left: 50px;  
+}
+
+#loginPage .bg .forget p{
+    /* font-size: large; */
+    font-weight: lighter;
+    font-size: 17px;
+    font-style: inherit;
+}
+#loginPage .bg .no{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    top: 50%;
+    margin-top: 260px;
+    margin-left: 210px;
+}
+#loginPage .bg .no h5{
+    font-size: 15px;
+    opacity: 0.5;
+    font-style: italic;
+}

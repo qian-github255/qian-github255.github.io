@@ -1,0 +1,278 @@
+#indexPage{
+    width: 520px;
+    margin: 0 auto;
+    background-color: rgb(200, 200, 200); 
+    position: relative;
+}
+
+#indexPage .theme{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+
+#indexPage .dataMsg{
+    width: 500px;
+    height: 330px;
+    margin: 5px 10px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+#indexPage .dataMsg .sliderPage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3000px;
+    height: 330px;
+    /* overflow: hidden; */
+}
+
+#indexPage .dataMsg .sliderPage li{
+    width: 500px;
+    height: 330px;
+    float: left;
+}
+
+#indexPage .dataMsg .sliderPage li img{
+    width: 100%;
+    height: 100%;
+}
+
+#indexPage .dataMsg .btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    line-height: 40px;
+    top: 125px;
+    opacity: 0.1;
+    border-radius: 50%;
+}
+
+#indexPage .dataMsg:hover .btn{
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+
+#indexPage .dataMsg .leftBtn {
+    left: 15px;
+    font-size: 25px;
+}
+
+#indexPage .dataMsg .rightBtn{
+    right: 15px;
+    font-size: 25px;
+}
+
+#indexPage .dataMsg .sliderIndex{
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    top: 100%;
+    margin-top: -35px;
+    cursor: pointer;
+}
+#indexPage .dataMsg .sliderIndex span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#indexPage .dataMsg .sliderIndex .active{
+    background-color: #f40;
+}
+
+#indexPage .guideMsg{
+    width: 500px;
+    margin: 20px 10px 10px 10px  ;
+    height: 260px;
+    background-color: hotpink;
+}
+
+#indexPage .guideMsg img{
+    width: 100%;
+    height: 100%;
+}
+
+#indexPage .newCard {
+    width: 500px;
+    margin: 10px 10px ;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+}
+
+#indexPage .newCard span{
+    position: relative;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+#indexPage .newCard p{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    right: 165px;
+}
+
+#indexPage .welcome {
+    width: 500px;
+    margin: 10px 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#indexPage .welcome img{
+    width: 100%;
+}
+
+#indexPage .introduce {
+    width: 500px;
+    margin: 10px 10px ;
+    background-color: #fff;
+    /* height: 500px; */
+}
+
+#indexPage .introduce span{
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 10px ;
+}
+#indexPage .introduce .tpl{
+    width: 100%;
+    /* height: 330px; */
+    background-color: #fff;
+    text-align: left;
+}
+
+#indexPage .introduce .tpl img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+#indexPage .introduce .tpl h4{
+    margin-left: 10px;
+}
+
+#indexPage .introduce .tpl ul{
+    line-height: 50px;
+    height: 50px;
+}
+
+#indexPage .introduce .tpl ul li{
+    font-weight: bold;
+    float: left;
+}
+
+#indexPage .introduce .tpl ul li img{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+#indexPage .introduce .tpl ul li span{
+    position: relative;
+    right: -150px;
+    top: -20px;
+}
+#indexPage .introduce .tpl ul li .master{
+    position: relative;
+    width: 150px;
+    top: 2px;
+    /* display: flex; */
+}
+#indexPage .introduce .tpl ul li .join{
+    position: relative;
+    right: -150px;
+    opacity: 0.5;
+}
+
+
+#indexPage .login{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    left: 65%;
+    top : 80%;
+    cursor: pointer;
+}
+
+#indexPage .login span {
+    font-size: 50px;
+    color: #0088ff;
+    opacity: 0.8;
+}
+
+#indexPage .bottom {
+    width: 518px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 70px;
+    background-color: #fff;
+    line-height: 70px;
+    position: fixed;
+    left: 50%;
+    margin-left: -260px;
+    bottom: 0px;
+}
+
+#indexPage .bottom .button{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    /* background-color: rgb(200, 200, 200); */
+    line-height: 60px;
+    cursor: pointer;
+}
+#indexPage .bottom .button .tu{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    font-size: 30px;
+    /* color: #08f; */
+    top: -10px;
+    color: rgb(200, 200, 200);
+    opacity : 0.8;
+}
+#indexPage .bottom .button p{
+    position: absolute;
+    top: 20px;
+    left: 8px;
+}
+
+/* 定位 */
+#indexPage .bottom .first{
+    margin-left: 64px;
+}
+#indexPage .bottom .second{
+    margin-top: -60px;
+    margin-left: 178px;
+}
+#indexPage .bottom .third{
+    margin-top: -60px;
+    margin-left: 292px;
+}
+#indexPage .bottom .last{
+    margin-top: -60px;
+    margin-left: 406px;
+}
+/* 选中状态 */
+#indexPage .bottom .button .active{
+    color: red;
+}
